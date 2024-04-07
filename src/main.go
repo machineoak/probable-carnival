@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-
+	
 	introduction()
 	for {
 		habitat()
