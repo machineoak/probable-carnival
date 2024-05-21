@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	
+
 	introduction()
 	for {
 		habitat()
@@ -38,7 +38,7 @@ func introduction() {
 func tooth() int {
 	var toothPaste int
 	fmt.Scan(&toothPaste)
-	fmt.Println("the command was", toothPaste)
+	fmt.Println("command", toothPaste)
 
 	return toothPaste
 }
